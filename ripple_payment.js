@@ -30,7 +30,7 @@ api.connect().then(() => {
     }
   }
 
-const secret = 'shsWGZcmZz6YsWWmcnpfr6fLTdtFV'
+const secret = 'SECRET'
 
  return api.preparePayment(address, payment).then(prepared => {
     console.log('Payment transaction prepared...');
